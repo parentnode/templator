@@ -1,0 +1,12 @@
+/* HEADER */
+#header {position: relative; height: 100px;}
+#header .logo {font-size: 30px; padding: 20px 50px 20px; color: #888888; cursor: pointer; display: block; width: 200px;}
+
+#header .servicenavigation {position: absolute; top: 5px; right: 50px;}
+#header .servicenavigation li {display: inline; vertical-align: top; color: #bbbbbb; padding-left: 10px;}
+#header .servicenavigation li.navigation {display: none;}
+
+
+/* NAViGATION */
+#navigation {position: absolute; right: 50px; top: 75px;}
+#navigation ul li {display: inline; vertical-align: top; padding: 0 0 0 20px; font-size: 20px; color: #888888;}

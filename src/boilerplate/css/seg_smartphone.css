@@ -1,0 +1,89 @@
+
+/*seg_smartphone_include.css*/
+
+/*s-fonts.css*/
+@font-face {
+	font-family: 'OpenSans';
+	src: url('/css/fonts/opensans-regular-webfont.woff') format('woff'),
+		 url('/css/fonts/opensans-regular-webfont.ttf') format('truetype'),
+		 url('/css/fonts/opensans-regular-webfont.svg#OpenSansRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*s-page.css*/
+* {font-family: "OpenSans", Verdana, Arial, sans-serif; color: #000000;
+	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+}
+html {min-height: 100%;}
+body {background: #ffffff; margin: 0; overflow-y: scroll; overflow-x: hidden;}
+h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt {padding: 0; margin: 0;}
+h1, h2, h3, h4, h5, h6, p, li, dd, dt, span, a {line-height: 1em; font-weight: normal;}
+ul {list-style: none;}
+a {text-decoration: underline; cursor: pointer;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+img {border: 0; display: block;}
+form, fieldset, label, input, select, textarea {padding: 0; margin: 0; font-weight: normal;}
+fieldset {border: none;}
+input, select, textarea {font-size: 14px;}
+input, textarea {outline: none;}
+a, span {font-size: inherit; font-family: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; color: inherit; text-transform: inherit;}
+h1 {padding: 0 20px 24px; font-size: 34px; line-height: 1.05em;}
+h2 {padding: 0 20px 24px; font-size: 26px; line-height: 1.1em;}
+h3 {padding: 0 20px 10px; font-size: 18px; line-height: 1.25em;}
+h4 {padding: 0 20px 5px; font-size: 13px; line-height: 1em; font-weight: bold;}
+h5 {padding: 0 20px 2px; font-size: 13px; line-height: 1em; font-weight: bold;}
+h6 {padding: 0 20px 2px; font-size: 13px; line-height: 1em; font-weight: bold;}
+p {padding: 0 20px 18px; font-size: 13px; line-height: 1.538em;} 
+ul,
+ol {font-size: 0;}
+li {font-size: 13px; line-height: 1.25em;}
+dl {font-size: 0;} 
+dt, 
+dd {display: block; vertical-align: top; font-size: 13px; line-height: 1.25em;}
+.c {clear: both; font-size: 0;}
+.c400, .c300, .c266, .c200, .c150, .c133, .c100, .c75, .c50 {display: inline-block; min-height: 10px; vertical-align: top;}
+.c400 {width: 100%;}
+.c300 {width: 75%;}
+.c266 {width: 66%;}
+.c200 {width: 50%;}
+.c133 {width: 34%;}
+.c100 {width: 25%;}
+#page {position: relative;}
+.terms_notification {opacity: 0; padding: 15px 20px 20px; background: #888888;}
+.terms_notification h3 {padding: 0 0 15px; font-size: 13px; color: #ffffff;}
+.terms_notification .accept,
+.terms_notification .details {padding: 0; font-size: 16px; display: inline-block; vertical-align: bottom; padding: 0; color: #ffffff;}
+.terms_notification .details {float: right;}
+.terms_notification .accept:active,
+.terms_notification .details:active {text-decoration: underline;}
+
+
+/*s-header.css*/
+#header {position: fixed; height: 60px; width: 100%; top: 0; left: 0; background: #ffffff; z-index: 100; overflow: hidden;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+#header .logo {font-size: 30px; padding: 10px 20px; color: #888888; cursor: pointer; display: inline-block; position: relative; z-index: 10;}
+#header .logo:active {text-decoration: none;}
+#header .servicenavigation {position: absolute; top: 0; left: 0; z-index: 9; width: 100%; height: 60px; background: #ffffff;}
+#header .servicenavigation li.navigation {position: absolute; right: 0; top: 0; width: 30px; height: 39px; padding: 21px 15px 0;}
+#header .servicenavigation li.navigation div {border-radius: 1px; height: 3px; margin: 0 0 5px; background: #888888;}
+#header .servicenavigation li.navigation.open div {background: #cccccc;}
+#header .servicenavigation li.navigation a {display: none;}
+#navigation {position: absolute; width: 100%; top: 75px; display: none;}
+#navigation ul li {padding: 20px 20px 0 20px; font-size: 20px; color: #888888; display: block; text-align: center;}
+#navigation ul li:active {text-decoration: none;}
+
+
+/*s-content.css*/
+#content {position: relative; padding-top: 60px;}
+#content .scene {position: relative; padding: 30px 0;}
+#content .scene div.includesfailed {display: none;}
+

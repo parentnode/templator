@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Templator - Boilerplate</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="keywords" content="HTML, JavaScript, CSS, framework, SEO" />
+	<meta name="description" content="Details do matter" />
+	<meta name="viewport" content="initial-scale=1, user-scalable=no" />
+
+	<link rel="apple-touch-icon" href="/touchicon.png">
+	<link rel="icon" href="/favicon.png">
+
+	<script type="text/javascript" src="/js/detector.js"></script>
+</head>
+
+<body>
+
+<div id="page" class="i:page">
+
+	<div id="header">
+		<ul class="servicenavigation">
+			<li class="keynav navigation"><a href="#navigation" rel="nofollow">To navigation</a></li>
+			<li class="keynav search"><a href="/search" rel="search">Search</a></li>
+			<li class="keynav language en"><a href="?language=en">English</a></li>
+			<li class="keynav language da"><a href="?language=da">Dansk</a></li>
+		</ul>
+	</div>
+
+	<div id="content">
+		<div class="scene i:scene">
+
+			<div class="includesfailed">
+				<h3>Error</h3>
+				<p>
+					Please note that all includes (for js, css and images) are made to be served from a webserver root.<br />
+					If you request this page directly through the filesystem, the resources will not be loaded.
+				</p>
+			</div>
+
+			<h3>Segments</h3>
+			<p>
+				You can shift segments by adding a ?segment=[segment] parameter to your url.<br />
+				<a href="?segment=desktop">?segment=desktop</a><br />
+				<a href="?segment=smartphone">?segment=smartphone</a><br />
+				<a href="?segment=desktop_light">?segment=desktop_light</a><br />
+				<a href="?segment=seo">?segment=seo</a><br />
+				<a href="?segment=unsupported">?segment=unsupported</a><br />
+			</p>
+			<p>
+				You can shift between dev and production includes by adding ?dev=[0|1] to your url.<br />
+				<a href="?dev=1">?dev=1</a><br />
+				<a href="?dev=0">?dev=0</a><br />
+			</p>
+
+		</div>
+	</div>
+
+	<div id="navigation">
+		<ul class="navigation">
+			<li class="a1"><a href="#">Nav a1</a></li>
+			<li class="b1"><a href="#">Nav b1</a></li>
+			</li>
+		</ul>
+	</div>
+
+	<div id="footer">
+		<ul class="servicenavigation">
+			<li class="terms"><a href="/terms">Terms</a></li>
+		</ul>
+
+		<div class="copyright"><p>Copyright 2016, parentNode.dk</p></div>
+	</div>
+
+</div>
+
+</body>
+</html>
