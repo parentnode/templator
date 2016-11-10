@@ -7,12 +7,16 @@
 		<li class="email"><a href="mailto:info@parentnode.dk" itemprop="email" content="info@parentnode.dk">info@parentnode.dk</a></li>
 		<li class="tel"><a href="callto:+4520742819" itemprop="telephone" content="+4512345678">+45 1234 5678</a></li>
 		<li class="birthdate" itemprop="birthDate" content="2014-04-02">DOB: 04/02/2014</li>
-		<li class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-			<ul>
+		<li class="location" itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+			<ul class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 				<li class="streetaddress" itemprop="streetAddress">666 Streetname</li>
 				<li class="city"><span class="postal" itemprop="postalCode">1234</span> <span class="locality" itemprop="addressLocality">Cityname</span></li>
 				<li class="region" itemprop="addressRegion">Capital</li>
 				<li class="country" itemprop="addressCountry">Country</li>
+			</ul>
+			<ul class="geo" itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+				<li class="latitude" itemprop="latitude" content="55.681159"></li>
+				<li class="longitude" itemprop="longitude" content="12.58437"></li>
 			</ul>
 		</li>
 	</ul>
