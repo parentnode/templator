@@ -1,53 +1,110 @@
 <div class="event" itemscope itemtype="http://schema.org/Event">
-
-	<h1 itemprop="name">Rebelle Yoga</h1>
-
-	<dl class="occurs_at">
-		<dt class="starting_at">Starts</dt>
-		<dd class="starting_at" itemprop="startDate" content="2016-06-06 17:00">2016-06-06 @ 17:00</dd>
-		<dt class="ending_at">Ends</dt>
-		<dd class="ending_at" itemprop="endDate" content="2016-06-06 19:00">2016-06-06 @ 19:00</dd>
-	</dl>
-
+	<h2 itemprop="name">Rebelle Yoga</h2>
 	<div class="description" itemprop="description">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		<p>Event description.</p>
 	</div>
-
-	<dl class="performers" itemprop="performers">
-		<dt>Speaker</dt>
-		<dd itemscope itemtype="http://schema.org/Person">Martin Kæstel Nielsen</dd>
-		<dt>Lecturer</dt>
-		<dd itemscope itemtype="http://schema.org/Person">Anja Simone Müller</dd>
-	</dl>
-
-	<dl class="offer" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-		<dt class="price">Price</dt>
-		<dd class="price" itemprop="price" content="200.00">200,-</dd>
-		<dt class="currency">Currency</dt>
-		<dd class="currency" itemprop="priceCurrency">DKK</dd>
-		<dt class="url">More info</dt>
-		<dd class="url" itemprop="url">https://think.dk/events/rebelle-yoga</dd>
-	</dl>
-
-	<ul class="location" itemprop="location" itemscope itemtype="https://schema.org/Place">
-		<li class="name" itemprop="name">think.dk</li>
-		<li class="address" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-			<ul>
-				<li class="streetaddress" itemprop="streetAddress">Æbeløgade 4</li>
-				<li class="city"><span class="postal" itemprop="postalCode">2100</span> <span class="locality" itemprop="addressLocality">København Ø</span></li>
-				<li class="country" itemprop="addressCountry">Denmark</li>
+	<ul class="info">
+		<li class="starting_at" itemprop="startDate" content="2016-06-06 17:00">Starts: 2016-06-06 @ 17:00</li>
+		<li class="ending_at" itemprop="endDate" content="2016-06-06 19:00">Ends: 2016-06-06 @ 19:00</li>
+		<li class="doortime" itemprop="doorTime" content="2016-06-06 18:30">Doors open: 2016-06-06 @ 18:30</li>
+		<li class="organizer">
+			<ul class="organizer" itemprop="organizer" itemscope itemtype="https://schema.org/Organization">
+				<li class="name" itemprop="name">think.dk</li>
 			</ul>
 		</li>
-		<li class="googlemaps" itemprop="hasMap">https://www.google.dk/maps/place/think.dk/@55.7113503,12.5607538,14z/data=!4m8!1m2!2m1!1sthink.dk!3m4!1s0x4652525ed39a61c9:0x72007ec4793a0190!8m2!3d55.711486!4d12.564502</li>
-	</ul>
-
-	<ul class="info">
+		<li class="performer" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+			<h3 itemprop="name">Martin Kæstel Nielsen</h3>
+		</li>
+		<li itemprop="performer" itemscope itemtype="http://schema.org/Person">
+			<h3 itemprop="name">Anja Müller</h3>
+		</li>
+		<li class="location" itemprop="location" itemscope itemtype="https://schema.org/Place">
+			<h3 itemprop="name">think.dk</h3>
+			<ul class="info">
+				<li class="address">
+					<ul class="address" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+						<li class="streetaddress" itemprop="streetAddress">Æbeløgade 4</li>
+						<li class="city"><span class="postal" itemprop="postalCode">2100</span> <span class="locality" itemprop="addressLocality">København Ø</span></li>
+						<li class="region" itemprop="addressRegion">Hovedstaden</li>
+						<li class="country" itemprop="addressCountry">Denmark</li>
+					</ul>
+				</li>
+				<li class="googlemaps" itemprop="hasMap" content="https://www.google.dk/maps/place/think.dk/@55.7113503,12.5607538,14z/data=!4m8!1m2!2m1!1sthink.dk!3m4!1s0x4652525ed39a61c9:0x72007ec4793a0190!8m2!3d55.711486!4d12.564502"></li>
+				<li class="geo">
+					<ul class="geo" itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+						<li class="name" itemprop="name">Copenhagen office</li>
+						<li class="latitude" itemprop="latitude" content="55.681159"></li>
+						<li class="longitude" itemprop="longitude" content="12.58437"></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li class="capacity" itemprop="maximumAttendeeCapacity" content="10">Max participants: 10</li>
 		<li class="url" itemprop="url">https://think.dk/events/rebelle-yoga</li>
+		<li class="aggregaterating" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+			<span class="reviewcount" itemprop="reviewCount" content="10"></span>
+			<span class="ratingcount" itemprop="ratingCount" content="9"></span>
+			<span class="ratingvalue" itemprop="ratingValue" content="4"></span>
+		</li>
 		<li class="image_info" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 			<span class="image_url" itemprop="url" content="https://think.dk/images/720x405.jpg"></span>
 			<span class="image_width" itemprop="width" content="720"></span>
 			<span class="image_height" itemprop="height" content="405"></span>
 		</li>
 	</ul>
+
+	<div class="offer" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+		<h3 class="name" itemprop="name">Offer name</h3>
+		<ul class="info">
+			<li class="currency" itemprop="priceCurrency" content="DKK"></li>
+			<li class="price" itemprop="price" content="59.00">59,00 DKK / Month</li>
+			<li class="availability" itemprop="availability" content="InStock">In stock</li>
+			<li class="validfrom" itemprop="validFrom" content="2016-06-06 12:00">2016-06-06 @ 12:00</li>
+			<li class="url" itemprop="url" content="http://templator.parentnode.dk/docs/product"></li>
+		</ul>
+		<div class="description" itemprop="description">
+			<p>Offer description</p>
+		</div>
+	</div>
+
+	<div class="reviews">
+		<h3>Reviews</h3>
+		<ul class="reviews">
+			<li class="review" itemprop="review" itemscope itemtype="http://schema.org/Review">
+				<h4 itemprop="headline">Review headline</h4>
+				<ul class="info">
+					<li class="published_at" itemprop="datePublished" content="2011-04-01">April 1, 2011</li>
+					<li class="author" itemprop="author">Martin Kæstel Nielsen</li>
+					<li class="rating">
+						<ul class="rating" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+							<li class="ratingvalue" itemprop="ratingValue" content="4.5">4.5</li>
+							<li class="worstrating" itemprop="worstRating" content="1"></li>
+							<li class="bestrating" itemprop="bestRating" content="5"></li>
+						</ul>
+					</li>
+				</ul>
+				<div class="reviewbody" itemprop="reviewBody">
+					<p>The best solution I have seen yet.</p>
+				</div>
+			</li>
+			<li class="review" itemprop="review" itemscope itemtype="http://schema.org/Review">
+				<h4 itemprop="headline">Review headline</h4>
+				<ul class="info">
+					<li class="published_at" itemprop="datePublished" content="2011-04-01">April 1, 2011</li>
+					<li class="author" itemprop="author">Martin Kæstel Nielsen</li>
+					<li class="rating">
+						<ul class="rating" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+							<li class="ratingvalue" itemprop="ratingValue" content="4.5">4.5</li>
+							<li class="worstrating" itemprop="worstRating" content="1"></li>
+							<li class="bestrating" itemprop="bestRating" content="5"></li>
+						</ul>
+					</li>
+				</ul>
+				<div class="reviewbody" itemprop="reviewBody">
+					<p>The best solution I have seen yet.</p>
+				</div>
+			</li>
+		</ul>
+	</div>
 
 </div>

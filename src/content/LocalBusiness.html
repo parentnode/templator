@@ -1,39 +1,52 @@
 <div itemtype="http://schema.org/LocalBusiness" itemscope class="company">
-	<h2 class="name fn org" itemprop="name">parentnode.dk</h2>
-
-	<dl class="info">
-		<dt class="location">Address</dt>
-		<dd class="location" itemprop="location" itemscope itemtype="http://schema.org/Place">
-			<ul class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-				<li class="streetaddress" itemprop="streetAddress">666 Streetname</li>
-				<li class="city"><span class="postal" itemprop="postalCode">1234</span> <span class="locality" itemprop="addressLocality">Cityname</span></li>
-				<li class="region" itemprop="addressRegion">Capital</li>
-				<li class="country" itemprop="addressCountry">Country</li>
+	<h2 class="name" itemprop="name">parentnode.dk</h2>
+	<ul class="info">
+		<li class="address">
+			<ul class="address" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+				<li class="streetaddress" itemprop="streetAddress">Æbeløgade 4</li>
+				<li class="city"><span class="postal" itemprop="postalCode">2100</span> <span class="locality" itemprop="addressLocality">København Ø</span></li>
+				<li class="region" itemprop="addressRegion">Hovedstaden</li>
+				<li class="country" itemprop="addressCountry">Denmark</li>
 			</ul>
+		</li>
+		<li class="location" itemprop="location" itemscope itemtype="http://schema.org/Place">
 			<ul class="geo" itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+				<li class="name" itemprop="name">Copenhagen office</li>
 				<li class="latitude" itemprop="latitude" content="55.681159"></li>
 				<li class="longitude" itemprop="longitude" content="12.58437"></li>
 			</ul>
-		</dd>
-		<dt class="cvr">CVR</dt>
-		<dd class="cvr" itemprop="taxID">01 12 23 34</dd>
-		<dt class="contact">Contact</dt>
-		<dd class="contact">
-			<ul>
+		</li>
+		<li class="organization_id">
+			<ul class="organization_id">
+				<li class="cvr" itemprop="taxID" content="DK-25210433">CVR: 25210433</li>
+			</ul>
+		</li>
+		<li class="image" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+			<span class="image_url" itemprop="url" content="http://templator.parentnode.dk/img/logo-large.png"></span>
+			<span class="image_width" itemprop="width" content="720"></span>
+			<span class="image_height" itemprop="height" content="405"></span>
+		</li>
+		<li class="social">
+			<ul class="social">
+				<li class="meetup" itemprop="sameAs" content="https://www.meetup.com/parentNode-copenhagen/">https://www.meetup.com/parentNode-copenhagen/</li>
+				<li class="facebook" itemprop="sameAs" content="https://www.facebook.com/parentnode/">https://www.facebook.com/parentnode/</li>
+			</ul>
+		</li>
+ 		<li class="contact">
+			<ul class="contact">
 				<li class="email"><a href="mailto:info@parentnode.dk" itemprop="email" content="info@parentnode.dk">info@parentnode.dk</a></li>
 				<li class="tel"><a href="callto:+4520742819" itemprop="telephone" content="+4512345678">+45 1234 5678</a></li>
 			</ul>
-		</dd>
-		<dt class="openinghours">Tu-Fr</dt>
-		<dd class="openinghours" itemprop="openingHours" datetime="Tu-Fr 10:00-22:00">Monday - Friday 10 - 22</dd>
-		<dt class="openinghours">Weekend</dt>
-		<dd class="openinghours" itemprop="openingHours" datetime="Sa,So 11:00-02:00">Weekend 11 - 02</dd>
-		<dt class="pricerange">Pricerange</dt>
-		<dd class="pricerange" itemprop="priceRange">1 - 1000 kr.</dd>
-	</dl>
-	<ul class="image_info" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-		<li class="image_url" itemprop="url" content="http://templator.parentnode.dk/img/logo-large.png"></li>
-		<li class="image_width" itemprop="width" content="720"></li>
-		<li class="image_height" itemprop="height" content="405"></li>
+		</li>
+		<li class="openinghours">
+			<ul class="openinghours">
+				<li class="openinghours" itemprop="openingHours" datetime="Tu-Fr 10:00-22:00">Monday - Friday 10 - 22</li>
+				<li class="openinghours" itemprop="openingHours" datetime="Sa,So 11:00-02:00">Weekend 11 - 02</li>
+			</ul>
+		</li>
+		<li class="pricerange" itemprop="priceRange" content="0-1000000 DKK">1 - 1.000.000 kr.</li>
 	</ul>
+	<div class="description" itemprop="description">
+		<p>Local business description</p>
+	</div>
 </div>

@@ -1,7 +1,35 @@
-<ul class="offer" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-	<li class="name" itemprop="name">Product name</li>
-	<li class="description" itemprop="description">Product description</li>
-	<li class="currency" itemprop="priceCurrency" content="DKK"></li>
-	<li class="price" itemprop="price" content="59.00">59,00 DKK / Month</li>
-	<li class="url" itemprop="url" content="http://templator.parentnode.dk/docs/product"></li>
-</ul>
+<div class="offer" itemscope itemtype="http://schema.org/Offer">
+	<h2 class="name" itemprop="name">Offer name</h2>
+	<ul class="info">
+		<li class="currency" itemprop="priceCurrency" content="DKK"></li>
+		<li class="price" itemprop="price" content="59.00">59,00 DKK / Month</li>
+		<li class="availability" itemprop="availability" content="InStock">In stock</li>
+		<li class="validfrom" itemprop="validFrom" content="2016-06-06 12:00">2016-06-06 @ 12:00</li>
+		<li class="url" itemprop="url" content="http://templator.parentnode.dk/docs/product"></li>
+		<li class="aggregaterating" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+			<span class="reviewcount" itemprop="reviewCount" content="10"></span>
+			<span class="ratingcount" itemprop="ratingCount" content="9"></span>
+			<span class="ratingvalue" itemprop="ratingValue" content="4"></span>
+		</li>
+		<li class="review" itemprop="review" itemscope itemtype="http://schema.org/Review">
+			<h3 itemprop="headline">Review headline</h3>
+			<ul class="info">
+				<li class="published_at" itemprop="datePublished" content="2011-04-01">April 1, 2011</li>
+				<li class="author" itemprop="author">Martin Kæstel Nielsen</li>
+				<li class="rating">
+					<ul class="rating" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+						<li class="ratingvalue" itemprop="ratingValue" content="4.5">4.5</li>
+						<li class="worstrating" itemprop="worstRating" content="1"></li>
+						<li class="bestrating" itemprop="bestRating" content="5"></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="reviewbody" itemprop="reviewBody">
+				<p>The best solution I have seen yet.</p>
+			</div>
+		</li>
+	</ul>
+	<div class="description" itemprop="description">
+		<p>Offer description</p>
+	</div>
+</div>

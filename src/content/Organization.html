@@ -1,28 +1,38 @@
 <div itemtype="http://schema.org/Organization" itemscope class="company">
 	<h2 class="name fn org" itemprop="name">parentnode.dk</h2>
-
-	<dl class="info">
-		<dt class="location">Address</dt>
-		<dd class="location" itemprop="location" itemscope itemtype="http://schema.org/Place">
+	<ul class="info">
+		<li class="address">
 			<ul class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-				<li class="streetaddress" itemprop="streetAddress">666 Streetname</li>
-				<li class="city"><span class="postal" itemprop="postalCode">1234</span> <span class="locality" itemprop="addressLocality">Cityname</span></li>
-				<li class="region" itemprop="addressRegion">Capital</li>
-				<li class="country" itemprop="addressCountry">Country</li>
+				<li class="streetaddress" itemprop="streetAddress">Æbeløgade 4</li>
+				<li class="city"><span class="postal" itemprop="postalCode">2100</span> <span class="locality" itemprop="addressLocality">København Ø</span></li>
+				<li class="region" itemprop="addressRegion">Hovedstaden</li>
+				<li class="country" itemprop="addressCountry">Denmark</li>
 			</ul>
+		</li>
+		<li class="location" itemprop="location" itemscope itemtype="http://schema.org/Place">
 			<ul class="geo" itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+				<li class="name" itemprop="name">Copenhagen office</li>
 				<li class="latitude" itemprop="latitude" content="55.681159"></li>
 				<li class="longitude" itemprop="longitude" content="12.58437"></li>
 			</ul>
-		</dd>
-		<dt class="cvr">CVR</dt>
-		<dd class="cvr" itemprop="taxID">01 12 23 34</dd>
-		<dt class="contact">Contact</dt>
-		<dd class="contact">
-			<ul>
+		</li>
+		<li class="organization_id">
+			<ul class="organization_id">
+				<li class="cvr" itemprop="taxID" content="DK25210433">CVR: 25210433</li>
+				<li class="duns" itemprop="duns" content="123456789">DUNS: 12-345-6789</li>
+			</ul>
+		</li>
+		<li class="social">
+			<ul class="social">
+				<li class="meetup" itemprop="sameAs" content="https://www.meetup.com/parentNode-copenhagen/">https://www.meetup.com/parentNode-copenhagen/</li>
+				<li class="facebook" itemprop="sameAs" content="https://www.facebook.com/parentnode/">https://www.facebook.com/parentnode/</li>
+			</ul>
+		</li>
+ 		<li class="contact">
+			<ul class="contact">
 				<li class="email"><a href="mailto:info@parentnode.dk" itemprop="email" content="info@parentnode.dk">info@parentnode.dk</a></li>
 				<li class="tel"><a href="callto:+4520742819" itemprop="telephone" content="+4512345678">+45 1234 5678</a></li>
 			</ul>
-		</dd>
-	</dl>
+		</li>
+	</ul>
 </div>

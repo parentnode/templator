@@ -1,5 +1,0 @@
-#content {position: relative; padding-top: 60px;}
-#content .scene {position: relative; padding: 30px 0;}
-
-/* HIDE INCLUDE MESSAGE IF THIS FILE WAS INCLUDED */
-#content .scene div.includesfailed {display: none;}

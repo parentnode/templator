@@ -1,11 +1,15 @@
-<div class="product" itemscope itemtype="http://schema.org/Product">
-	<h2 itemprop="name">Product name</h2>
+<div class="service" itemscope itemtype="http://schema.org/Service">
+
+	<ul class="tags">
+		<li itemprop="serviceType">Tag1</li>
+		<li itemprop="serviceType">Tag2</li>
+	</ul>
+
+	<h2 itemprop="name">Service name</h2>
 	<div class="description" itemprop="description">
 		<p>Product description</p>
 	</div>
 	<ul class="info">
-		<li class="sku" itemprop="sku" content="1234">SKU: 1234</li>
-		<li class="ean" itemprop="gtin13" content="1234567890123">EAN: 1234567890123</li>
 		<li class="brand">
 			<ul class="brand" itemprop="brand" itemscope itemtype="https://schema.org/Organization">
 				<li class="name" itemprop="name">parentnode.dk</li>
@@ -16,10 +20,6 @@
 				</li>
 			</ul>
 		</li>
-		<li itemprop="width">4cm</li>
-		<li itemprop="height">13cm</li>
-		<li itemprop="depth">13cm</li>
-		<li itemprop="weight">500g</li>
 		<li class="aggregaterating" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
 			<span class="reviewcount" itemprop="reviewCount" content="10"></span>
 			<span class="ratingcount" itemprop="ratingCount" content="9"></span>

@@ -1,1 +1,0 @@
-// Don't include any JavaScript for search engines

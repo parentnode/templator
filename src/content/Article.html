@@ -4,12 +4,12 @@
 		<li itemprop="articleSection">Tag</li>
 	</ul>
 
-	<h1 itemprop="headline">Headline</h1>
+	<h1 itemprop="headline">Headline of the Article</h1>
 
 	<ul class="info">
 		<li class="published_at" itemprop="datePublished" content="2016-03-14">14th March, 2016</li>
 		<li class="modified_at" itemprop="dateModified" content="2016-03-16"></li>
-		<li class="author" itemprop="author">Author</li>
+		<li class="author" itemprop="author">Anja Müller</li>
 		<li class="main_entity share" itemprop="mainEntityOfPage" content="http://templator.parentnode.dk/docs/article"></li>
 		<li class="publisher" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
 			<ul class="publisher_info">
@@ -28,16 +28,15 @@
 		</li>
 		<li class="place" itemprop="contentLocation" itemscope itemtype="http://schema.org/Place">
 			<ul class="geo" itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
-				<li class="location" itemprop="name">Office</li>
+				<li class="name" itemprop="name">Copenhagen office</li>
 				<li class="latitude" itemprop="latitude" content="55.681159"></li>
 				<li class="longitude" itemprop="longitude" content="12.58437"></li>
 			</ul>
 		</li>
 	</ul>
 
-
 	<div class="articlebody" itemprop="articleBody">
-		<p>Article body</p>
+		<p>Article body in structured HTML.</p>
 	</div>
 
 	<div class="comments">
@@ -45,9 +44,11 @@
 			<li class="comment" itemprop="comment" itemscope itemtype="https://schema.org/Comment">
 				<ul class="info">
 					<li class="published_at" itemprop="datePublished" content="2016-03-14">14th March, 2016</li>
-					<li class="author" itemprop="author">Comment author</li>
+					<li class="author" itemprop="author">Martin Kæstel Nielsen</li>
 				</ul>
-				<p class="comment" itemprop="text">Comment text</p>
+				<div class="commentbody" itemprop="text">
+					<p>This is so cool and easy to work with and I get the semantic properties handed on a plate.</p>
+				</div>
 			</li>
 		</ul>
 	</div>
